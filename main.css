@@ -9,6 +9,7 @@ div div{
     grid-row: 2;
     border:solid white 5px;
     background-color: lightgray;
+    padding:20px;
     
     
 }
@@ -17,11 +18,8 @@ div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:5px;
-    padding:30px 30px 30px 30px;
     height:50%;
 
-    
-    
     
     
 }
@@ -30,6 +28,7 @@ h1{
     grid-column: 1/4;
     grid-row:1;
     background-color: lightgray;
+    padding:30px
     
 }
 
@@ -39,6 +38,7 @@ article{
     grid-row: 3;
     border:solid white 5px;
     background-color: lightgray;
+    padding-left: 10px;
 }
 
 aside{
@@ -54,4 +54,5 @@ Footer{
     grid-row: 4;
     border:solid white 5px;
     background-color: lightgray;
+    padding:30px
 }
