@@ -12,6 +12,7 @@ div div{
     
     
 }
+/* you are applying display grid to ALL of your divs, you should have an id or class on a parent div */
 div{
 
     display: grid;
